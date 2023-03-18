@@ -19,12 +19,12 @@ Shiny user interface (UI)
 ### Artefacts
 `openstreetmap.pdf`: pdf-file of Open Street Map of your data with initial border settings.
 
-### Parameters 
+### Settings
 `Define edge size to view coastlines`: The amount of longitude and latitude units that shall be added at the edges of the data's bounding box for better visibility. Default 1 degree.
 
 ### Null or error handling:
 
-**Parameter `Define edge size to view coastlines`:** The default value is `1`, which leads to a margin of 1 degree in latitude and longitude direction on the map around the locations' bounding box.
+**Setting `Define edge size to view coastlines`:** The default value is `1`, which leads to a margin of 1 degree in latitude and longitude direction on the map around the locations' bounding box.
 
 **Data:** The data are not manipulated, but empty input with no locations (NULL) leads to an error. For calculations in further Apps the input data set is returned.
 
